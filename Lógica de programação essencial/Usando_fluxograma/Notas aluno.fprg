@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="groot"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-05 02:48:08 "/>
+        <attribute name="created" value="Z3Jvb3Q7R3Jvb3Q7MjAyMS0wNi0wNDsiMTI6NTA6MjIgIjsyMjYw"/>
+        <attribute name="edited" value="Z3Jvb3Q7R3Jvb3Q7MjAyMS0wNi0wNTsiMDI6NDg6MDggIjsxNzsyNDM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, total" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome: &quot;" newline="False"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite a primeira nota: &quot;" newline="False"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a segunda nota: &quot;" newline="False"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite a terceira nota: &quot;" newline="False"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite a quarta nota: &quot;" newline="False"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <assign variable="total" expression="nota1+nota2+nota3+nota4"/>
+            <output expression="&quot;A media das notas: &quot; &amp; media" newline="True"/>
+            <if expression="media &gt;= 6">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; foi aprovado: &quot; &amp; nome" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelismente voc&#234; foi reprovado: &quot;  &amp; nome &amp; &quot; a m&#233;dia minima &#233; 6.0&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
