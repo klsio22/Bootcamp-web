@@ -6,6 +6,17 @@
     height: 90%;
   }
 
+  .bottom-dark {
+    display: flex;
+    z-index: 0;
+  }
+  
+  .bottom-dark label{
+  }
+
+  .logo-dark-mode{
+    z-index: 1;
+  }
   .instagram-phone {
     display: none;
   }

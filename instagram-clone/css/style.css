@@ -8,15 +8,16 @@
 }
 
 :root {
-  --colorPage-primary: white;
-  --colorPage-secondary: linear-gradient(#ff8f48, #ffcf53);
-  --colorBorders-primary: gray;
-  --colorText-primary: rgb(119, 114, 114);
+  --colorPage-primary: linear-gradient(#ff8f48, #ffcf53);
+  --colorBorders-primary: rgb(87, 85, 85);
+  --colorText-primary: rgb(110, 110, 110);
+  --colorText-secondary: white;
   --colorBackground-primary: #0095f6;
   --colorBackground-secondary: white;
+  --colorBoder-default:1px solid white;
   --width-50: 50%;
   --width-100: 100%;
-  --size-defalt: 1rem;
+  --size-default: 1rem;
 }
 
 body {
@@ -28,11 +29,28 @@ body {
   justify-content: center;
 }
 
+
 main {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+.bottom-dark {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  width: 6.5rem;
+  height: 3rem;
+  position: absolute;
+  background-color: var(--colorPage-primary);
+
+}
+
+.bottom-dark label {
+  padding: 0.5;
+}
+
 
 .instagram-wrapper {
   display: flex;
@@ -70,7 +88,10 @@ main {
   width: var(--width-100);
   padding: 1.3rem 0;
   margin: 5px 0;
-  border: 1px solid rgb(116, 104, 104);
+
+  box-shadow: -1px -1px 1px #325d6f, 1px 1px 1px #66666e;
+  -webkit-box-shadow: -1px -1px 1px #325d6f, 1px 1px 1px #7b7b86;
+  -moz-box-shadow: -1px -1px 1px #325d6f, 1px 1px 1px #66666e;
 }
 
 .group:nth-child(1) {
@@ -94,15 +115,15 @@ main {
 }
 
 .instagram-login {
-  background-color: #0095f6;
+  background-color: var(--colorBackground-primary);
   color: var(--colorPage-primary);
   padding: 8px;
   border-radius: 4px;
 }
 
 .instagram-logout {
-  color: #0095f6;
-  margin-top: var(--size-defalt);
+  color: var(--colorBackground-primary);
+  margin-top: var(--size-default);
 }
 
 .not-account {
@@ -110,7 +131,7 @@ main {
 }
 
 .link-blue {
-  color: #0095f6;
+  color: var(--colorBackground-primary);
 }
 
 .get-the-app {
@@ -129,7 +150,7 @@ main {
   align-items: center;
   max-width: 30rem;
   min-width: 25rem;
-  padding: var(--size-defalt);
+  padding: var(--size-default);
 }
 
 .app-download {
@@ -140,13 +161,22 @@ main {
 
 .app-download:nth-child(1) {
   background-image: url("/img/apple-button.png");
+  border: var(--colorBoder-default);
+  border-radius: 5px;
 }
 .app-download:nth-child(2) {
   background-image: url("/img/googleplay-button.png");
+  border: var(--colorBoder-default);
+  border-radius: 5px;
 }
 
 footer {
+  color: var(--colorText-primary);
   padding: 3.5rem 0;
+}
+
+footer a {
+  color: var(--colorText-primary);
 }
 
 .links-footer {
@@ -163,7 +193,7 @@ footer {
 }
 
 .links-footer ul li {
-  padding-right: var(--size-defalt);
+  padding-right: var(--size-default);
 }
 
 .copyright {
