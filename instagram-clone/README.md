@@ -1,10 +1,12 @@
-# Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
+##  🎩Crei um projeto clone do instagram como intuido de treinar minha habilidades em css e html e deixar do meu geito .  🎩
 
-Esse é o repositório da nossa aula de Flexbox, na qual vamos fazer a interface de login do Instagram! 
+## 🚀- Nesse projeto adicionei tags e estilos mais simples ao até o intermediário . 🚀
 
-### Os requisitos são:
+## 🚀- Adicionei um botão de modo escuro para paginar mudar de cor .🚀
 
-* [HTML básico](https://www.w3schools.com/html/)
-* [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+## 🚀- Adcionei um rodapé parecido com do rodapé da pagina inical do instagram 🚀
 
-## 🚀 Let's code! 🚀
+## 🚀 - Fiz uso de variavés no css para facilitar na manuteção do codigo . 🚀
+
+
+
