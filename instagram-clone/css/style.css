@@ -14,7 +14,7 @@
   --colorText-secondary: white;
   --colorBackground-primary: #0095f6;
   --colorBackground-secondary: white;
-  --colorBoder-default:1px solid white;
+  --colorBoder-default: 1px solid white;
   --width-50: 50%;
   --width-100: 100%;
   --size-default: 1rem;
@@ -28,7 +28,6 @@ body {
   padding: 0;
   justify-content: center;
 }
-
 
 main {
   display: flex;
@@ -44,13 +43,12 @@ main {
   height: 3rem;
   position: absolute;
   background-color: var(--colorPage-primary);
-
 }
 
 .bottom-dark label {
+  cursor: pointer;
   padding: 0.5;
 }
-
 
 .instagram-wrapper {
   display: flex;
