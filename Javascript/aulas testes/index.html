@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testes js</title>
+  <script src="teste.js"></script>
+  <script src="testes02.js"></script>
+
+
+</head>
+
+<body id="cor" class="cor" onload="load()">
+
+  <h1 id="h1">Minha pagina</h1>
+
+  <button type="button" onclick="clicou()">Mudar cor do fundo para verde</button>
+
+
+  <button type="button" onclick="gerar()">Clique para gerar um texto</button>
+  <button type="button" onclick="limparTexto()">Clique para apagar texto</button>
+
+  <br>
+  <h1 class="texto"></h1>
+
+
+  <button type="button" onclick="abrir()">Click para abrir link</button>
+
+  <p class="link" onclick="redirecionar()"></p>
+
+  <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse para trocar</p>
+  <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse para trocar</p>
+
+
+  <select name="" id="" onchange="funcaoChange(this)">  
+    <option value="1">Valor 1</option>
+    <option value="2">Valor 2</option>
+    <option value="3">Valor 3</option>
+  </select>
+
+
+  <script src="functions.js"></script>
+
+</body>
+
+
+</html>
