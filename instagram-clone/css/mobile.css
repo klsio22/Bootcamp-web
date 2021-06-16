@@ -1,17 +1,20 @@
 /* Celular */
 @media (max-width: 1124px) {
-  .instagram-wrapper {
-    padding-top: 1em;
-    width: var(--width-100);
-    height: 90%;
+  body {
+    min-width: 25rem;
+  }
+
+  .group {
+    box-shadow: none;
+    -webkit-box-shadow: none;
   }
 
   .bottom-dark {
     display: flex;
     z-index: 0;
   }
-  
-  .logo-dark-mode{
+
+  .logo-dark-mode {
     z-index: 1;
   }
   .instagram-phone {
@@ -20,7 +23,7 @@
 
   .instagram-continue {
     width: var(--width-100);
-    max-height: 0.5em;
+    max-height: 0.5rem;
   }
 
   .group {
