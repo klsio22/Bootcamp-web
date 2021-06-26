@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+:root {
+  --primay: #ef051a;
+  --secondary: #141414;
+  --colorText-primary: #fff;
+  --colorText-secondary: #141414;
+}
+
+body {
+  color: var(--colorText-primary);
+  background: var(--secondary);
+  font-weight: bold;
+}
+
+header .logo {
+  color: var(--primay);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+  padding: 8px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--colorText-primary);
+  padding: 5px;
+}
+
+header nav a:hover {
+  color: #aaa;
+}
+
+main{
+  width: 40vw; /* 500px */
+}
+
+main p{
+  flex-wrap: wrap;
+}
+
