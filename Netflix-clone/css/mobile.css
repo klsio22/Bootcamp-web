@@ -1,0 +1,17 @@
+@media screen and (max-width: 720px) {
+
+  .top {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+      url("/img/capa-loki-01.jpg") no-repeat;
+    background-size: cover;
+    height: 31.25rem; /* 500px */
+  }
+
+  .description {
+    width: initial;
+  }
+
+  .movie-main p {
+    margin-bottom: 20px;
+  }
+}

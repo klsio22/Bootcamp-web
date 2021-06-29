@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 body,
@@ -48,13 +48,16 @@ header nav a:hover {
 }
 
 main{
-  max-width: 10rem; /* 500px */
+  max-width: 20rem; /* 500px */
 
 }
 
 
 button{
   border: none;
+  width: 15rem;
+  height: 3rem;
+  margin-bottom: 8px;
   border-radius: 6px;
   margin-right: 0.5rem;
 }
