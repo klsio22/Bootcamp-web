@@ -24,20 +24,22 @@
     <div class="container nav-main">
       <header class="text-capitalize ">
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="container-fluid">
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
-              aria-label="Toggle navigation">
+          <div class="container">
+            <button onclick="abrir()" class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="true"
+              aria-label="Alterna navegação">
               <span class="navbar-toggler-icon"></span>
+
             </button>
 
-            <h2 class="logo ">Netflix</h2>
+            <a class="navbar-brand" href="#">
+              <h2 class="logo ">Netflix</h2>
+            </a>
 
-            <div class="collapse navbar-collapse show" id="navbarSupportedContent">
-              <ul class="navbar-nav ">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <div class="menu collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Séries</a>
@@ -52,11 +54,12 @@
                   <a class="nav-link" href="#">Bombando</a>
                 </li>
               </ul>
-
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="buscar" aria-label="buscar">
+              </form>
             </div>
-            <form class="d-flex">
-              <input class="form-control me-1" type="search" placeholder="Buscar" aria-label="Search">
-            </form>
+
+
           </div>
         </nav>
       </header>
@@ -70,10 +73,7 @@
             <p class="">
               Começando imediatamente depois que Loki rouba o Tesseract (de novo), ele se encontra diante da Autoridade
               de
-              Variação Temporal, uma organização burocrática que existe fora do tempo e espaço. Forçado a responder por
-              seus crimes contra a linha do tempo, ele recebe uma escolha: Ser deletado da realidade ou ajudar a
-              capturar
-              uma ameaça ainda maior.
+              Variação Temporal, uma organização burocrática que existe fora do tempo e espaço.
             </p>
 
             <div class="buttons">
@@ -117,12 +117,15 @@
 
 
   <footer>
-
+    
   </footer>
 
   <script src="js/owl/jquery.min.js"></script>
   <script src="js/owl/owl.carousel.min.js"></script>
   <script src="js/setup.js"></script>
+  <script src="js/menu.js"></script>
+
+
 
 </body>
 
