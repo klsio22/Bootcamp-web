@@ -1,0 +1,19 @@
+body {
+  background-color: #85a62a;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  font-size: 5rem;
+}
+main {
+  background: url(../img/snake-minimalism-art-1.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
