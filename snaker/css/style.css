@@ -7,8 +7,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
-  font-size: 5rem;
+  font-size: 7vh;
 }
 
 img{
@@ -19,16 +18,16 @@ img{
 }
 
 main {
-  /* background: url(../img/snake-minimalism-art-1.jpg) no-repeat;
-  background-size: contain; */
   display: flex;
   justify-content: center;
-  padding-top: 3rem;
+  padding-top: 1rem;
   
 }
-
-canvas{
- 
+@media only screen and (max-width:768px){
+  canvas{
+    width: 85vw;
+    margin: 1rem;
+  }
 }
 
 
